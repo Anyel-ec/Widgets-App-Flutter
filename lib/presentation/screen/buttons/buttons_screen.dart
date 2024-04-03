@@ -70,8 +70,37 @@ class _ButtonsView extends StatelessWidget {
             iconColor: MaterialStateColor.resolveWith((states) => Colors.white)
             )
             , icon:const Icon (Icons.add),), // decimo boton
+
+
+            // CustomsButtons 
+            const CustomButton()
           ],
         )
+      ),
+    );
+  }
+}
+
+// boton personalizado
+
+
+class CustomButton extends StatelessWidget {
+  const CustomButton({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(30),
+      child: Material(
+        color: colors.primary,
+        child: InkWell(
+          onTap: (){},
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            child:  Text('Hola Mundo', style: TextStyle(color: Colors.white)),
+          ),
+        ),
       ),
     );
   }
