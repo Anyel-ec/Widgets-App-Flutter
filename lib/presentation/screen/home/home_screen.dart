@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
+import 'package:widgets_app/presentation/screen/buttons/buttons_screen.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -53,8 +55,15 @@ class _CustomListTile extends StatelessWidget {
       subtitle: Text(menuItem.subtitle),
       leading: Icon(menuItem.icon, color: colors.primary,),
       trailing: Icon(Icons.chevron_right, color: colors.primary,),
-      onTap: () => Navigator.pushNamed(context, menuItem.link),
-      // todo: Navegador en otras pantallas
+      onTap: () {
+      //       Navigator.of(context).push(
+      //   MaterialPageRoute(
+      //     builder: (context) => const ButtonsScreen(),
+      //   ),
+      // );
+      context.push(menuItem.link);
+      }
+     
     );
   }
 }
