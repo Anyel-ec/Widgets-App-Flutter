@@ -25,6 +25,15 @@ const appMenuItems = [
     link: '/cards',
     icon: Icons.credit_card
   ),
+  // para progressIndications 
+  MenuItem(
+    title: 'ProgressIndicators',
+    subtitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.hourglass_empty
+  )
+
+
   // MenuItem(
   //   title: 'Contact',
   //   subtitle: 'Contact page',
