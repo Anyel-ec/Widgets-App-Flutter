@@ -25,6 +25,35 @@ const appMenuItems = [
     link: '/cards',
     icon: Icons.credit_card
   ),
+  // para progressIndications 
+  MenuItem(
+    title: 'ProgressIndicators',
+    subtitle: 'Generales y controlados',
+    link: '/progress',
+    icon: Icons.hourglass_empty
+  ), 
+
+  MenuItem(
+    title: 'SnackBar y dialogos',
+    subtitle: 'Mensajes emergentes',
+    link: '/snackbar',
+    icon: Icons.notifications
+  ),
+
+  MenuItem(
+    title: 'Animacion de Contenedores',
+    subtitle: 'Animaciones en Flutter',
+    link: '/animated',
+    icon: Icons.animation
+  ),
+
+  MenuItem(
+    title: 'Controles de UI',
+    subtitle: 'Controles de usuario',
+    link: '/ui-controls',
+    icon: Icons.control_camera
+  ),
+
   // MenuItem(
   //   title: 'Contact',
   //   subtitle: 'Contact page',
