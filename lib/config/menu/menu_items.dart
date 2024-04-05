@@ -54,6 +54,13 @@ const appMenuItems = [
     icon: Icons.control_camera
   ),
 
+  MenuItem(
+    title: 'Tutorial',
+    subtitle: 'Tutorial de Flutter',
+    link: '/tutorial',
+    icon: Icons.school
+  ),
+
   // MenuItem(
   //   title: 'Contact',
   //   subtitle: 'Contact page',
