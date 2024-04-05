@@ -31,7 +31,14 @@ const appMenuItems = [
     subtitle: 'Generales y controlados',
     link: '/progress',
     icon: Icons.hourglass_empty
-  )
+  ), 
+
+  MenuItem(
+    title: 'SnackBar y dialogos',
+    subtitle: 'Mensajes emergentes',
+    link: '/snackbar',
+    icon: Icons.notifications
+  ),
 
 
   // MenuItem(
