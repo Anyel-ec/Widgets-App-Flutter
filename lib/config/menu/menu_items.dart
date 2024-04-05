@@ -40,6 +40,13 @@ const appMenuItems = [
     icon: Icons.notifications
   ),
 
+  MenuItem(
+    title: 'Animacion de Contenedores',
+    subtitle: 'Animaciones en Flutter',
+    link: '/animated',
+    icon: Icons.animation
+  ),
+
 
   // MenuItem(
   //   title: 'Contact',
