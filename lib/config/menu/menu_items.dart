@@ -47,6 +47,12 @@ const appMenuItems = [
     icon: Icons.animation
   ),
 
+  MenuItem(
+    title: 'Controles de UI',
+    subtitle: 'Controles de usuario',
+    link: '/ui-controls',
+    icon: Icons.control_camera
+  ),
 
   // MenuItem(
   //   title: 'Contact',
