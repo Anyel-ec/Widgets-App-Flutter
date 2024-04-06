@@ -9,7 +9,7 @@ A sample Flutter application showcasing various widgets and basic functionalitie
 
 ## Result
 ### Video General
-🎥 [![Alt text](docs/home.PNG)](https://youtu.be/r1NWrv9a1RE)
+🎥 [Ver Video](https://youtu.be/r1NWrv9a1RE)
 ### Home
 ![Alt text](docs/home.PNG) 
 ### Buttons
