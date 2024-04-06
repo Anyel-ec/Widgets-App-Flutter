@@ -9,7 +9,7 @@ Una aplicación de ejemplo en Flutter que muestra diferentes widgets y funcional
 
 ## Result
 ### Video General
-![Alt text](docs/video.mkv) 
+[Descargar Video](docs/video.mkv) 
 ### Home
 ![Alt text](docs/home.PNG) 
 ### Buttons
