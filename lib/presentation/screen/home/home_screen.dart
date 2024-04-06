@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
-import 'package:widgets_app/presentation/screen/buttons/buttons_screen.dart';
-import 'package:widgets_app/presentation/screen/cards/cards_screen.dart';
+
 
 
 class HomeScreen extends StatelessWidget {
@@ -14,7 +13,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Screen'),
+        title: const Text('Anyel EC'),
       ),
       body: _HomeView(),
     );

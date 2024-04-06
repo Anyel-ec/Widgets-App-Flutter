@@ -14,7 +14,7 @@ class SnackBarScreen extends StatelessWidget {
             onPressed: () {
               ('SnackBar cerrado');
             }),
-        content: const Text('Hola mundo'));
+        content: const Text('Anyel EC'));
     ScaffoldMessenger.of(context).showSnackBar(snackback);
   }
 
