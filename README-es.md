@@ -9,7 +9,8 @@ Una aplicación de ejemplo en Flutter que muestra diferentes widgets y funcional
 
 ## Result
 ### Video General
-[Descargar Video](docs/video.mkv) 
+🎥 [Ver Video](https://youtu.be/r1NWrv9a1RE)
+
 ### Home
 ![Alt text](docs/home.PNG) 
 ### Buttons
