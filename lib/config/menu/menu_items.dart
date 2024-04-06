@@ -60,6 +60,12 @@ const appMenuItems = [
     link: '/tutorial',
     icon: Icons.school
   ),
+  MenuItem(
+    title: 'Infinite Scroll y Pull ',
+    subtitle: 'Scroll infinito en Flutte',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded
+  ),
 
   // MenuItem(
   //   title: 'Contact',
