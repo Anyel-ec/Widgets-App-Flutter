@@ -3,27 +3,24 @@ import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
 import 'package:widgets_app/presentation/widgets/side_menu.dart';
 
-
-
 class HomeScreen extends StatelessWidget {
-
   static const String name = 'home_screen';
   const HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final scaffoldKey = GlobalKey<ScaffoldState>();
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Anyel EC'),
-      ),
-      body: const _HomeView(),
-      drawer: const SideMenu()
-    );
+        key: scaffoldKey,
+        appBar: AppBar(
+          title: const Text('Anyel EC'),
+        ),
+        body: const _HomeView(),
+        drawer:  SideMenu(scaffoldKey: scaffoldKey));
   }
 }
 
 class _HomeView extends StatelessWidget {
-
   static const String name = 'home_screen';
   const _HomeView({
     super.key,
@@ -31,17 +28,16 @@ class _HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
-
     return ListView.builder(
-      physics: const BouncingScrollPhysics(), // Efecto de rebote
-      itemCount: appMenuItems.length,  // Cantidad de elementos
-      itemBuilder: (context, index){ // Funcion que se ejecuta por cada elemento
-      
-      final menuItem = appMenuItems[index];
+        physics: const BouncingScrollPhysics(), // Efecto de rebote
+        itemCount: appMenuItems.length, // Cantidad de elementos
+        itemBuilder: (context, index) {
+          // Funcion que se ejecuta por cada elemento
 
-      return _CustomListTile(menuItem: menuItem);
-    });
+          final menuItem = appMenuItems[index];
+
+          return _CustomListTile(menuItem: menuItem);
+        });
   }
 }
 
@@ -59,19 +55,23 @@ class _CustomListTile extends StatelessWidget {
     return ListTile(
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subtitle),
-      leading: Icon(menuItem.icon, color: colors.primary,),
-      trailing: Icon(Icons.chevron_right, color: colors.primary,),
+      leading: Icon(
+        menuItem.icon,
+        color: colors.primary,
+      ),
+      trailing: Icon(
+        Icons.chevron_right,
+        color: colors.primary,
+      ),
       onTap: () {
-      //       Navigator.of(context).push(
-      //   MaterialPageRoute(
-      //     builder: (context) => const ButtonsScreen(),
-      //   ),
-      // );
-      // context.pushNamed(CardsScreen.name);
-      context.push(menuItem.link);
+        //       Navigator.of(context).push(
+        //   MaterialPageRoute(
+        //     builder: (context) => const ButtonsScreen(),
+        //   ),
+        // );
+        // context.pushNamed(CardsScreen.name);
+        context.push(menuItem.link);
       },
-
-     
     );
   }
 }

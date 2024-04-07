@@ -7,16 +7,22 @@ Una aplicación de ejemplo en Flutter que muestra diferentes widgets y funcional
 - [Español (Spanish)](README-es.md)
 - [English](README.md)
 
+
 ## Result
-### Video General
-🎥 [Ver Video](https://youtu.be/r1NWrv9a1RE)
-
-
-
-### Home
-![Alt text](docs/home.PNG) 
-### Buttons
-![Alt text](docs/2%20buttons.PNG) 
+### Menu
+![Alt text](docs/1_menu.PNGG) 
+### Result Final (Dark Mode)
+![Alt text](docs/1.PNG) 
+### Result Final (Light Mode)
+![Alt text](docs/1_3.PNG) 
+### Changed Color Options
+![Alt text](docs/1_2.PNG) 
+### Changed Color Part 1 
+![Alt text](docs/1_5_changed.PNG) 
+### Changed Color Part 2 
+![Alt text](docs/1_6_changed.PNG) 
+### Counter Click
+![Alt text](docs/1_4.PNG) 
 ### Cards 
 ![Alt text](docs/3_cards.PNG) 
 ### Cards of Image
@@ -35,7 +41,6 @@ Una aplicación de ejemplo en Flutter que muestra diferentes widgets y funcional
 ![Alt text](docs/8_app_tuto.PNG) 
 ### Scroll Infinite, Refresh
 ![Alt text](docs/9_scroll.PNG) 
-
 
 ## Dependencias
 - animate_do: ^3.3.4

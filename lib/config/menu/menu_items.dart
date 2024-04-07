@@ -14,6 +14,18 @@ class MenuItem{
 
 const appMenuItems = [
   MenuItem(
+    title: 'Contador ',
+    subtitle: 'Contar con Riverpod',
+    link: '/counter',
+    icon: Icons.countertops
+  ),
+  MenuItem(
+    title: 'Cargar Tema',
+    subtitle: 'Cargar un tema en Flutter',
+    link: '/theme-changed',
+    icon: Icons.palette
+  ),
+  MenuItem(
     title: 'Botones',
     subtitle: 'Varios botones en Flutter',
     link: '/buttons',
@@ -66,6 +78,8 @@ const appMenuItems = [
     link: '/infinite',
     icon: Icons.list_alt_rounded
   ),
+
+  
 
   // MenuItem(
   //   title: 'Contact',
