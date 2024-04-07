@@ -9,9 +9,9 @@ A sample Flutter application showcasing various widgets and basic functionalitie
 
 ## Result
 ### Menu
-![Alt text](docs/1_menu.PNGG) 
+![Alt text](docs/1_menu.PNG) 
 ### Result Final (Dark Mode)
-![Alt text](docs/1.PNG) 
+![Alt text](docs/1_1.PNG) 
 ### Result Final (Light Mode)
 ![Alt text](docs/1_3.PNG) 
 ### Changed Color Options
