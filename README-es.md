@@ -10,9 +10,9 @@ Una aplicación de ejemplo en Flutter que muestra diferentes widgets y funcional
 
 ## Result
 ### Menu
-![Alt text](docs/1_menu.PNGG) 
+![Alt text](docs/1_menu.PNG) 
 ### Result Final (Dark Mode)
-![Alt text](docs/1.PNG) 
+![Alt text](docs/1_1.PNG) 
 ### Result Final (Light Mode)
 ![Alt text](docs/1_3.PNG) 
 ### Changed Color Options
